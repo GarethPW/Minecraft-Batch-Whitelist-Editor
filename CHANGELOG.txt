@@ -1,0 +1,37 @@
+﻿v1.0.0:
+ -Initial version
+
+v1.0.1:
+ -Fix for HTTP Errors
+ -More verbose output
+
+v1.1.0:
+ -Checks multiple usernames at one time, much faster
+ -Less throttling as a result
+ -Better progress output
+ -Duplicates in new_players.txt are now ignored
+
+v1.1.1:
+ -Fixed crash bug when listing failed players
+ -Fixed ignoring duplicates in new_players.txt
+
+v1.1.2:
+ -Fixed bug that sometimes caused an incorrect output if more than 1400 names were added to the whitelist
+
+v1.2.0:
+ -Added available update detection functionality
+ -Progress output is now categorised based on severity
+
+v1.2.1:
+ -Fixed crash when a player had a space in their name
+
+v1.2.2:
+ -Fixed UUID format so that servers actually recognise the generated whitelist
+
+v1.3.0:
+ -Added full duplicate removal - now checks existing whitelist with new_players for duplicates
+
+v1.4.0:
+ -Better support for Mac and Linux
+ -Comma-separated names count as two players now
+ -Empty lines are no longer processed
